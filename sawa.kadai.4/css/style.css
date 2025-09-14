@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+/* リセット */
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #4f260b;
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3",
+        "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+        "ＭＳ 明朝", serif;
+    font-feature-settings: "palt";
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border: none;
+}
+
+body {
+    background: #e8d9bf;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+/* ヘッダー */
+#header {
+    position: relative;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.51%;
+    padding-right: 6.53%;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    width: 226.7px;
+}
+
+.pc-nav ul {
+    display: flex;
+}
+
+.pc-nav ul li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    width: 105px;
+    margin-right: 53px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+.pc-nav ul li:last-child a {
+    margin-right: 0;
+}
+
+.message {
+    padding-top: 104px;
+}
+
+.happy {
+    font-size: 30px;
+}
+
+.big-happy {
+    font-size: 82px;
+    padding-top: 50px;
+}
+
+.p-text {
+    font-size: 23px;
+    padding: 50px;
+}
+
+.all-about-us {
+    display: flex;
+    padding-top: 89px;
+}
+
+.art-coffe img {
+    border-bottom-right-radius: 100px;
+}
+
+.art {
+    width: 425px;
+}
+
+.about-us-logo {
+    padding: 74px;
+    width: 272px;
+}
+
+
+
+.text-1 {
+    font-size: 44px;
+}
+
+.text-2 {
+    font-size: 16px;
+    padding: 34px;
+}
+
+
+.menu-logo {
+    width: 151px;
+    padding-top: 108px;
+}
+
+.menu {
+    width: 300px;
+}
+
+
+.menus {
+    display: flex;
+    gap: 30px;
+    padding-top: 48px;
+    align-items: flex-start;
+    /* 上揃え */
+}
+
+
+.menu h3 {
+    font-size: 38px;
+    color: #d30202;
+    margin-top: -20px;
+    text-align: center;
+}
+
+
+.text-3 {
+    padding-top: 25px;
+}
+
+.menu img {
+    border-top-right-radius: 50px;
+}
+
+.GALLERY-logo {
+    width: 245px;
+    padding-top: 101px;
+
+}
+
+
+.img-list {
+    display: flex;
+}
+
+.event-logo {
+    width: 173px;
+    padding-top: 72px;
+}
+
+.box {
+    width: 1000px;
+    height: 200px;
+
+    background: #fff;
+    border: 2px solid #4f260b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 40px;
+    box-sizing: border-box;
+
+
+
+}
+
+span {
+    font-size: 23px;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.date {
+    width: 120px;
+    text-align: left;
+
+}
+
+.text-4 {
+    flex: 1;
+    text-align: left;
+    border-bottom: 1px solid#4f260b;
+    padding-bottom: 3px;
+}
+
+.accsess-logo {
+    width: 213px;
+    padding-top: 80px;
+}
+
+.map iframe {
+    width: 1000px;
+    padding-top: 45px;
+
+}
+
+.footer {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-left {
+    text-align: left;
+    width: 226px;
+}
+
+.footer-right {
+    text-align: right;
+    font-size: 20px;
+    color: black;
+}
+
+
+.footer-copy {
+    margin-top: 83px;
+    font-size: 16px;
+    color: black;
+}
+
+.maru {
+    width: 125px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
